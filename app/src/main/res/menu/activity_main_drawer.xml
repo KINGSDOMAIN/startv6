@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_eventpack"
+            android:icon="@drawable/eventpack"
+            android:title="Event Pack" />
+        <item
+            android:id="@+id/nav_live"
+            android:icon="@drawable/live"
+            android:title="Videos" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/cart"
+            android:title="Market Place" />
+        <item
+            android:id="@+id/nav_videoupload"
+            android:icon="@drawable/videoupload"
+            android:title="Upload" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/login"
+                android:title="User Login" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+</menu>
